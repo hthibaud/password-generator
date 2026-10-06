@@ -68,7 +68,7 @@ def get_nb_numbers(nb_characters: int, nb_specials: int, nb_upper_letters: int) 
             print("Wrong number numbers, min 3 numbers.")
             input()
             continue
-        elif nb_numbers < nb_characters - nb_specials - nb_upper_letters -3:
+        elif nb_numbers < nb_characters - nb_specials - nb_upper_letters:
             return nb_numbers
 
 def generate_password() -> str:
