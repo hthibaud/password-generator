@@ -76,18 +76,7 @@ def generate_password() -> str:
     clear_screen()
 
     print_menu()
-
-    # print("What length? (14-20)")
-    # nb_characters=int(input())
-
-    # print("How many specials? (min 4)")
-    # nb_specials=int(input())
-
-    # print("How many upper letters? (min 3)")
-    # nb_upper_letters = int(input())
-
-    # print("How many numbers? (min 3)")
-    # nb_numbers = int(input())
+    
     print("")
     goOrNot = input()
 
